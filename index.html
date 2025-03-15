@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login360|landing</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="./mobile.css" type="text/css">
+    <link rel="icon" href="./images/logo360.png" type="image/icon">
+    <script src="https://kit.fontawesome.com/6d5dd140ae.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main>
+        <!-- ----------------Header section------------------- -->
+        <header class="header-container">
+            <img src="./images/Login Logo R Rectangle 1.png" alt="login360" width="350" height="80">
+            <p class="header-para">ISO CERTIFIED 9001-2015</p>
+        </header>
+        <!-- ----------------Offer section------------------- -->
+        <div class="offer-container">
+            <h1 class="offer-text">LIMITED TIME OFFER</h1>
+            <h1 class="price-text">₹19,999</h1>
+            <h1 class="actual-text">₹17,999</h1>
+        </div>
+        <!-- -----------------Form section--------------------- -->
+        <div class="form-container">
+            <div class="left-container">
+                <p class="top-line">Get placed as</p>
+                <h2 id="cource-name">FULLSTACK DEVELOPER</h2>
+                <h5 class="months">In Just 3 Months</h5>
+                <div class="side-border"></div>
+                <div class="content">
+                    <p class="">Start your career with expert-led training,<br />projects, and placement support. Learn
+                        front-end an back-end technologies to start your dream tech career</p>
+                </div>
+            </div>
+            <form class="form">
+                <h3 class="form-headline"><span>Enquiry</span> Form</h3>
+
+                <label>Name</label>
+                <input type="text" name="text" placeholder="Enter your full name"><br />
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email address" name="email"><br />
+                <label>Phone Number</label>
+                <input type="number" placeholder="Enter your phone number"><br />
+                <label for="type">Choose a mode</label>
+                <select id="type" name="type">
+                    <option disabled selected value>-- select an option --</option>
+                    <option value="online">Online</option>
+                    <option value="offline">Offline</option>
+                </select><br />
+                <div class="button-div">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+        <!-- ----------------Placement section------------------- -->
+        <div class="placement-container">
+            <h1 class="placement-text">PLACEMENT RECORDS</h1>
+            <div class="placement-records">
+                <div class="slider">
+                    <img src="./images/varient-image-1.png" alt="picture1" class="placement-img">
+                    <img src="./images/varient-image-2.png" alt="picture2" class="placement-img">    
+                    <img src="./images/varient-image-3.png" alt="picture3" class="placement-img">    
+                    <img src="./images/varient-image-4.png" alt="picture4" class="placement-img">    
+                    <img src="./images/varient-image-5.png" alt="picture5" class="placement-img">  
+                </div>
+            </div>
+            <p class="placement-para">Don’t Wait, Start Your Career Today!</p>
+            <button class="callback-btn" id="openModalBtn">REQUEST CALLBACK</button>
+        </div>
+
+        <!-- ----------video section----------- -->
+        <div class="container">
+            <div class="header">
+                <h1>Real time project testimonials</h1>
+            </div>
+            <div class="image-content">
+                <button id="prevBtn" class="carousel-btn">&#10094;</button>
+                <div class="carousel-images">
+                    <img src="./images/Asset management.webp" class="active" alt="Image 1" width="806px" height="369px">
+                    <img id="openVideoModal" src="./images/Bus ticket Reservation Thumbnail.webp" alt="...." width="806px" height="369px">
+                    <img src="./images/image2.jpg" alt="Image 3" width="806px" height="369px">
+                </div>
+                <p>Expert Coaching with Expert trainers</p>
+                <button id="nextBtn" class="carousel-btn">&#10095;</button>
+            </div>
+        </div>
+
+        <!-- ----------Testimonials section------------ -->
+        <div class="testimonials-container">
+            <!-- <div class="testimonial-reels-container">
+                <div class="carousel-container-reels">
+                    <button class="nav-button reels-prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <div class="reels-carousel" id="reels-carousel">
+                        <div class="reels-card" data-reel="https://www.instagram.com/reel/DCB2o-kp_HT/">
+                            <div class="reel-wrapper">
+                                <img src="./images/reels-1.png" alt="reel 1">
+                                <span class="play-btn"></span>
+                            </div>
+                            <h3>Hackathons</h3>
+                        </div>
+                        
+                        <div class="reels-card">
+                            <a href="https://www.instagram.com/reel/DCJcfbUJAmB/" target="_blank" class="reel-link">
+                                <div class="reel-wrapper">
+                                    <img src="./images/reels-2.png" alt="reel 2">
+                                    <span class="play-btn"></span>
+                                </div>
+                            </a>
+                            <h3>Hackathons</h3>
+                        </div>
+                        <div class="reels-card">
+                            <a href="https://www.instagram.com/reel/DBQx8CPvQaU/" target="_blank" class="reel-link">
+                                <div class="reel-wrapper">
+                                    <img src="./images/reels-3.png" alt="reel 3">
+                                    <span class="play-btn"></span>
+                                </div>
+                            </a>
+                            <h3>Hackathons</h3>
+                        </div>
+                        <div class="reels-card">
+                            <a href="https://www.instagram.com/reel/DADlth9phTZ/" target="_blank" class="reel-link">
+                                <div class="reel-wrapper">
+                                    <img src="./images/reels-4.png" alt="reel 4">
+                                    <span class="play-btn"></span>
+                                </div>
+                            </a>
+                            <h3>Hackathons</h3>
+                        </div>
+                        <div class="reels-card">
+                            <a href="https://www.instagram.com/reel/DDy3fQFJT_9/" target="_blank" class="reel-link">
+                                <div class="reel-wrapper">
+                                    <img src="./images/reels-5.png" alt="reel 5">
+                                    <span class="play-btn"></span>
+                                </div>
+                            </a>
+                            <h3>Hackathons</h3>
+                        </div>
+                        <div class="reels-card">
+                            <a href="https://www.instagram.com/reel/DC36xHCJSP0/" target="_blank" class="reel-link">
+                                <div class="reel-wrapper">
+                                    <img src="./images/reels-6.png" alt="reel 6">
+                                    <span class="play-btn"></span>
+                                </div>
+                            </a>
+                            <h3>Hackathons</h3>
+                        </div>
+                    </div>
+                    <button class="nav-button reels-next" onclick="moveSlide(1)">&#10095;</button>
+                </div>
+            </div> -->
+            
+            <!-- <img src="./images/line-border.png" alt="line" class="line-image"> -->
+            <!-- ----------------Google rating------------------- -->
+            <div class="testimonial-review">
+                
+                <div class="testimonial-card">
+                    <img src="./images/Graph.png" alt="image1" />
+                    <p>7+ Years in <br />
+                        IT training industry</p>
+                </div>
+                <div class="testimonial-card card2">
+                    <img src="./images/ISO-cert.png" alt="image2" />
+                    <p>ISO <br />
+                        Certified</p>
+                </div>
+                <div class="testimonial-card card3">
+                    <img src="./images/hands.png" alt="image3" />
+                    <p>trusted by <br />
+                        3000+ students</p>
+                </div>
+                <div class="testimonial-card card4">
+                    <img src="./images/Google.png" alt="image4" />
+                    <img src="./images/Stars.png" alt="image5" class="google-star" />
+                    <p>4.8/5 Ratings</p>
+                </div>
+            </div>
+
+            <div class="btn-div">
+                <button class="callback-btn" id="openModalBtn">REQUEST CALLBACK</button>
+            </div>
+        </div>
+
+        <!-- -----------------Benefits section------------------- -->
+        <div class="benefits-container">
+            <p id="cbtitle">Fullstack Development</p>
+            <p id="cbtext">COURSE BENEFITS</p>
+            <div class="benefits-container2">
+                <div class="boxrow1">
+                    <div class="image-box">
+                        <img src="images/business-growth-concept-grey-white-wall-side-view-hand-putting-wood-block-onto-tower.png"
+                            alt="img1">
+                        <p id="ddtext">BASIC TO ADVANCED CURRICULUM</p>
+                        <div class="hovertext">
+                            <p id="destext">
+                                Learn Html, Css, Javascript, React,<br>
+                                Bootstrap, Java, Python,Spring Boot,<br>
+                                Django, My Sql
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxrow1">
+                    <div class="image-box">
+                        <img src="images/people-working-as-team-company.png" alt="img1">
+                        <p id="ddtext">REAL TIME PROJECTS</p>
+                        <div class="hovertext">
+                            <p id="destext">
+                                Build Real-Time Websites To Showcase<br>
+                                Your Skills And Make Job Portfolio.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxrow1">
+                    <div class="image-box"><img src="images/explaining-data-whiteboard.png" alt="img1">
+                        <p id="ddtext">EXPERT TRAINERS</p>
+                        <div class="hovertext">
+                            <p id="destext">
+                                Get Trained From Industry Expert<br>
+                                Professionals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxrow1">
+                    <div class="image-box">
+                        <img src="images/man-drawing-bulb-gears.png" alt="img1">
+                        <p id="ddtext">JOB READY SKILLS</p>
+                        <div class="hovertext">
+                            <p id="destext">
+                                Master tools like edux, bootstrap 5,<br>
+                                material ui and technologies <br>
+                                like react crud management nd more<br>
+                                which are demandedby top companies
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxrow1">
+                    <div class="image-box">
+                        <img src="images/preteen-boy-uses-laptop-make-video-call-with-his-teacher.png" alt="img1">
+                        <p id="ddtext">FLEXIBLE LEARNING</p>
+                        <div class="hovertext">
+                            <p id="destext">
+                                Attend Live Classroom Sessions
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxrow1">
+                    <div class="image-box">
+                        <img src="images/IMG_20241019_190439.png" alt="img1">
+                        <p id="ddtext">PLACEMENT SUPPORT</p>
+                        <div class="hovertext">
+                            <p id="destext">
+                                Get Placement Support<br>
+                                With Help For Interviews, Job Search,<br>
+                                And Finding Great Opportunities To<br>
+                                Start Your Dream Career.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------------Tools section--------------- -->
+        <div class="tools-container">
+            <div class="topic-text">
+                <h1>Tools you learn</h1>
+            </div>
+            <div class="tools-slider">
+                <div class="slider-track">
+                    <img src="/images/dijango.png" alt="Django" class="slider-image">
+                    <img src="/images/javascript 1.png" alt="JavaScript" class="slider-image">
+                    <img src="/images/html 1.png" alt="HTML" class="slider-image">
+                    <img src="/images/css.png" alt="CSS" class="slider-image">
+                    <img src="/images/visual-studio-code-1.png" alt="VS Code" class="slider-image">
+                    <img src="/images/java_1-1.png" alt="Java" class="slider-image">
+                    <img src="/images/nodejs_1-1.png" alt="Node.js" class="slider-image">
+                    <img src="/images/images_1-1.png" alt="Images" class="slider-image">
+                    <img src="/images/Group_13-1.png" alt="Group" class="slider-image">
+                    <img src="/images/epicilon-1.png" alt="Epicilon" class="slider-image">
+                    <img src="/images/mysql_1-1.png" alt="MySQL" class="slider-image">
+        
+                    <!-- Duplicating images for smooth infinite scrolling -->
+                    <img src="/images/dijango.png" alt="Django" class="slider-image">
+                    <img src="/images/javascript 1.png" alt="JavaScript" class="slider-image">
+                    <img src="/images/html 1.png" alt="HTML" class="slider-image">
+                    <img src="/images/css.png" alt="CSS" class="slider-image">
+                    <img src="/images/visual-studio-code-1.png" alt="VS Code" class="slider-image">
+                    <img src="/images/java_1-1.png" alt="Java" class="slider-image">
+                    <img src="/images/nodejs_1-1.png" alt="Node.js" class="slider-image">
+                    <img src="/images/images_1-1.png" alt="Images" class="slider-image">
+                    <img src="/images/Group_13-1.png" alt="Group" class="slider-image">
+                    <img src="/images/epicilon-1.png" alt="Epicilon" class="slider-image">
+                    <img src="/images/mysql_1-1.png" alt="MySQL" class="slider-image">
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- --------------Syllabus section---------------- -->
+        <div class="syllabus-container">
+            <div class="text-container">
+                <div class="topic">
+                    <h3>Syllabus Overview</h3>
+                </div>
+                <div class="syllabus-para">
+                    <p>Our Syllabus has been completely structured by expert trainers covering with real time projects
+                        for front end, back end technologies and data base technologies </p>
+                </div>
+                <div class="module">
+                    <div id="module-left" class="module-same">
+                        <div class="module-item">
+                            <div class="module-title">
+                                <p>MODULE 1</p>
+                                <p class="toggle-icon"><i class="fa-solid fa-circle-chevron-down"></i></p>
+                            </div>
+                            <div class="module-content">
+                                <p>HTML5, CSS3, Bootstrap</p>
+                            </div>
+                        </div>
+                        <div class="module-item">
+                            <div class="module-title">
+                                <p>MODULE 2</p>
+                                <p class="toggle-icon"><i class="fa-solid fa-circle-chevron-down"></i></p>
+                            </div>
+                            <div class="module-content">
+                                <p>Basic JavaScript</p>
+                            </div>
+                        </div>
+                        <div class="module-item">
+                            <div class="module-title">
+                                <p>MODULE 3</p>
+                                <p class="toggle-icon"><i class="fa-solid fa-circle-chevron-down"></i></p>
+                            </div>
+                            <div class="module-content">
+                                <p>Advance Java Script</p>
+                            </div>
+                        </div>
+                        <div class="module-item">
+                            <div class="module-title">
+                                <p>MODULE 4</p>
+                                <p class="toggle-icon"><i class="fa-solid fa-circle-chevron-down"></i></p>
+                            </div>
+                            <div class="module-content">
+                                <p>React & React Hooks</p>
+                            </div>
+                        </div>
+                        <div class="module-item">
+                            <div class="module-title">
+                                <p>MODULE 5</p>
+                                <p class="toggle-icon"><i class="fa-solid fa-circle-chevron-down"></i></p>
+                            </div>
+                            <div class="module-content">
+                                <p>React MUI Library</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="module-right" class="module-same">
+                        <div class="module-item">
+                            <div class="module-title">
+                                <p>MODULE 6</p>
+                                <p class="toggle-icon"><i class="fa-solid fa-circle-chevron-down"></i></p>
+                            </div>
+                            <div class="module-content">
+                                <p>Basic Java and Basic Python</p>
+                            </div>
+                        </div>
+                        <div class="module-item">
+                            <div class="module-title">
+                                <p>MODULE 7</p>
+                                <p class="toggle-icon"><i class="fa-solid fa-circle-chevron-down"></i></p>
+                            </div>
+                            <div class="module-content">
+                                <p>Advance Java and Advance Python</p>
+                            </div>
+                        </div>
+                        <div class="module-item">
+                            <div class="module-title">
+                                <p>MODULE 8</p>
+                                <p class="toggle-icon"><i class="fa-solid fa-circle-chevron-down"></i></p>
+                            </div>
+                            <div class="module-content">
+                                <p>Database (My SQL, Postgress SQL)</p>
+                            </div>
+                        </div>
+                        <div class="module-item">
+                            <div class="module-title">
+                                <p>MODULE 9</p>
+                                <p class="toggle-icon"><i class="fa-solid fa-circle-chevron-down"></i></p>
+                            </div>
+                            <div class="module-content">
+                                <p>Hibernate JPA</p>
+                            </div>
+                        </div>
+                        <div class="module-item">
+                            <div class="module-title">
+                                <p>MODULE 10</p>
+                                <p class="toggle-icon"><i class="fa-solid fa-circle-chevron-down"></i></p>
+                            </div>
+                            <div class="module-content">
+                                <p>Framework (For java Spring boot and For Python Django)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------Certification section--------------- -->
+        <div class="certification-overall-container">
+            <div class="GenAiImplemented_container">
+                <div class="GenAiImplemented_container_left">
+                    <div class="GenAiImplemented_container_left_top">
+                        <h1>UPGRADE WITH GEN AI IMPLEMENTED FULLSTACK</h1>
+                        <div class="GenAiImplemented_price">
+                            <h2><sup>IN JUST</sup></h2>
+                            <h2 class="genAI-rupees">₹1,499</h2>
+                        </div>
+                    </div>
+                    <div class="GenAiImplemented_container_left_bottom">
+                        <p>Earn a Full Stack Development Certificate to show your skills in building websites and apps.
+                        </p>
+                        <p>Take it further by upgrading to an AI Full Stack Certificate to learn how to use AI in your
+                            projects.</p>
+                        <p>These certifications help you gain the right skills and stand out to employers in the tech
+                            field!</p>
+                        <img src="./images/web2 (1).png" alt="chat-AI" class="AI-image">
+                        <img src="./images/web2 (2).png" alt="chat-AI" class="AI-image">
+                        <img src="./images/web2 (3).png" alt="chat-AI" class="AI-image">
+                    </div>
+                </div>
+                <div class="GenAiImplemented_container_right">
+                    <img class="GenAiImplemented_img1" src="./images/test.png" alt="Certificate">
+                    <img class="GenAiImplemented_img2" src="./images/test (2).png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- ---------------Timer section----------------- -->
+        <div class="timer-container">
+            <h1 class="timer-para-text">DON'T MISS OUT</h1>
+            <p class="exclusive-para">Exclusive <span style="color: #FF7B19;">₹2,000</span> Discount </p>
+            <p class="offer-para">offer ends in </p>
+            <div class="timer-background">
+                <div class="time-numbers">
+                    <span class="timer-days-text">Days</span>
+                    <div class="number-container">
+                        <h1 class="class-number">02</h1>
+                    </div>
+                </div>
+                <span class="colon">:</span>
+                <div class="time-numbers">
+                    <span class="timer-days-text">Hours</span>
+                    <div class="number-container">
+                        <h1 class="class-number">08</h1>
+                    </div>
+                </div>
+                <span class="colon">:</span>
+                <div class="time-numbers">
+                    <span class="timer-days-text">Minutes</span>
+                    <div class="number-container">
+                        <h1 class="class-number" id="minutes">30</h1>
+                    </div>
+                </div>
+                <span class="colon">:</span>
+                <div class="time-numbers">
+                    <span class="timer-days-text">Seconds</span>
+                    <div class="number-container">
+                        <h1 class="class-number" id="seconds">59</h1>
+                    </div>
+                </div>
+            </div>
+            <button class="callback-btn timer-btn">SECURE YOUR SPOT</button>
+
+        </div>
+
+        <!-- ------------------------Form dialog section--------------------------- -->
+        <div id="modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <button class="close-btn" id="closeModalBtn"><i class="fa-solid fa-xmark"></i></button>
+                <form class="form">
+                    <h3 class="form-headline"><span>Enquiry</span> Form</h3>
+
+                    <label>Name</label>
+                    <input type="text" name="text" placeholder="Enter your full name"><br />
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your email address" name="email"><br />
+                    <label>Phone Number</label>
+                    <input type="number" placeholder="Enter your phone number"><br />
+                    <label for="type">Choose a mode</label>
+                    <select id="type" name="type">
+                        <option disabled selected value>-- select an option --</option>
+                        <option value="online">Online</option>
+                        <option value="offline">Offline</option>
+                    </select><br />
+                    <div class="button-div">
+                        <button>Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- -------------------------Video dialog section------------------------------ -->
+        <div id="videoModal" class="video-modal" style="display: none;">
+            <div class="video-modal-content">
+                <button class="close-btn-video" id="closeVideoModal"><i class="fa-solid fa-xmark"></i></button>
+                <iframe id="videoFrame" width="560" height="315" autoplay="false"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <!-- ------------------------Reels dialog section---------------------------- -->
+        <div id="reelModal" class="reels-modal">
+            <div class="reels-modal-content">
+                <span class="reels-close-btn" onclick="closeReelModal()">&times;</span>
+                <div id="reelEmbedContainer">
+                    <!-- Instagram embed will be loaded here -->
+                    <blockquote class="instagram-media" 
+                    data-instgrm-permalink="https://www.instagram.com/reel/DCB2o-kp_HT/" 
+                    data-instgrm-version="14" 
+                    style="max-width: 500px; margin: auto;">
+                </blockquote>
+                <script async src="https://www.instagram.com/embed.js"></script>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
